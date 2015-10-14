@@ -40,6 +40,11 @@ BarcodeScannerView.propTypes = {
   torchMode: PropTypes.string,
   cameraType: PropTypes.string,
   onBarCodeRead: PropTypes.func,
+  scaleX: PropTypes.number,
+  scaleY: PropTypes.number,
+  translateX: PropTypes.number,
+  translateY: PropTypes.number,
+  rotation: PropTypes.number,
 };
 
 var RNBarcodeScannerView = requireNativeComponent('RNBarcodeScannerView', BarcodeScannerView, {
